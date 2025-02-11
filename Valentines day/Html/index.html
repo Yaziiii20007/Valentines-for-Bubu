@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Bubu ❤️</title>
+    <link rel="stylesheet" href="../style/Css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Bubu,</h1>
+        <p>You make my world brighter every day. Will you be my Valentine? ❤️</p>
+        <div class="buttons">
+            <button id="yes">Yes! 💕</button>
+            <button id="no">No 😢</button>
+        </div>
+        <p id="response"></p>
+    </div>
+
+    <script>
+        document.getElementById("yes").addEventListener("click", function() {
+            document.getElementById("response").innerHTML = "Yay! I love you, Bubu! 💖🥰";
+        });
+
+        document.getElementById("no").addEventListener("click", function() {
+            document.getElementById("response").innerHTML = "Oh no! 😭 But I'll still love you forever! 💔";
+        });
+    </script>
+</body>
+</html>
